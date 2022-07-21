@@ -9,7 +9,7 @@ package p3;
  *
  * @author reroes
  */
-public class DominioGmail {
+public class DominioGmail implements DominioCorreo {
     private String dominio;
     
     public void establecerDominio(String g){
